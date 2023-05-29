@@ -1,7 +1,3 @@
-body {
-  
-}
-
 @font-face {
   font-family: "Norse-Bold";
   font-style: normal;
@@ -9,6 +5,28 @@ body {
   src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf")
 } 
 
+body {
+  font-family: sans-serif;
+}
+
+#left {
+  background: url("./marek-piwnicki-5asbAZnTXRI-unsplash.jpg") rgb(248, 248, 171) no-repeat;
+  width:fit-content;
+  height: fit-content;
+  background-size: contain;
+}
+
 .logo {
+  display: flex;
+  height: 100px;
   font-family: "Norse-Bold", sans-serif;
+  font-size: 4rem;
+}
+
+.odin {
+  height: 0.25rem;
+}
+
+#main {
+  display: flex;
 }

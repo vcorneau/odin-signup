@@ -8,6 +8,73 @@
   <title>Sign Up Form</title>
 </head>
 <body>
-  
+  <div id="main">
+
+    <div class="content" id="left">
+      <div class="logo">
+        <img src="odin-lined.png" id="odin">
+        <div class="name">ODIN</div>
+      </div>
+    </div>
+
+    <div class="content" id="right">
+      <div class="hero">
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started. </br></br>
+        You <em>know</em> you want to.
+      </div>
+
+      <div class="form">
+        <p class="callToAction">Let's do this!</p>
+        <form action="/handle-form" method="post">
+          <div id="left-form">
+            <ul>
+              <li>
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" name="first_name">
+              </li>
+              <li>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+              </li>
+              <li>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+              </li>
+            </ul>
+          </div>
+
+          <div id="right-form">
+            <ul>
+              <li>
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name">
+              </li>
+              <li>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="text" id="phone" name="phone">
+              </li>
+              <li>
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm_password" name="confirm_password">
+              </li>
+            </ul>
+          </div>
+
+          <div id="submit">
+            <ul>
+              <li class="button">
+                <button type="submit">Create Account</button>
+              </li>
+            </ul>
+            </br>
+            <p>Already have an account? <a href="http://www.google.ca">Log in</a></p>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
