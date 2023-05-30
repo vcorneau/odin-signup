@@ -21,16 +21,14 @@ body {
   background-size:contain;
   width: 500px;
   height: 100vh; 
-
-  
 }
 
 .logo {
-  position: absolute;
   width: 500px;
   top: 8rem;
   background: rgba(0,0,0,0.25);
   height: 6rem;
+  margin-top: 10rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -54,6 +52,17 @@ body {
   margin-left: auto;
   margin-right: 0;
   height: 5rem;
+}
+
+.photo-credit {
+  color: aliceblue;
+  font-size: 0.5em;
+  width: inherit;
+  position: fixed;
+  padding: 10px 0;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
 }
 
 #main {
