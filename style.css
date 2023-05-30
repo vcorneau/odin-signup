@@ -7,33 +7,52 @@
 
 body {
   font-family: sans-serif;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
+  background-color:rgb(230, 223, 238);
+
 }
 
 #left {
-  background: url("https://images.unsplash.com/photo-1685115755336-c488e27084a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80") rgb(248, 248, 171) no-repeat;
-  width: 30%;
-  display: block;
-  height: auto;
-  max-height: 100%;
+  background: url("https://images.unsplash.com/photo-1685115755336-c488e27084a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 500px;
+  height: 100vh; 
+
+  
 }
 
 .logo {
+  position: absolute;
+  width: 500px;
+  top: 8rem;
+  background: rgba(0,0,0,0.25);
+  height: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.logo-content {
   display: flex;
-  height: 100px;
-  font-family: "Norse-Bold", sans-serif;
-  font-size: 4.5rem;
-  color:aliceblue;
-  background-color: rgba(0,0,0,0.25);
   align-items: center;
 }
 
 .name {
-  text-align: center;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: "Norse-Bold", sans-serif;
+  font-size: 4.5rem;
+  color: aliceblue;
 }
 
 .odin {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
   height: 5rem;
 }
 
