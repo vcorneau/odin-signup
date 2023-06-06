@@ -131,8 +131,14 @@ li {
   border: none;
   border-radius: 12px;
   color: aliceblue;
-  font-weight: bold;
   text-align: center;
-  width: fit-content;
+  width: 10rem;
   padding: 1rem;
+}
+
+.button:active {
+  background-color: rgb(141, 110, 160);
+  border: 1px;
+  border-radius: 12px;
+  color: aliceblue;
 }
