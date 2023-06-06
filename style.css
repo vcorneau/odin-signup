@@ -100,15 +100,34 @@ input {
   flex-direction: column;
 }
 
-input {
+input[type="text"],
+input[type="password"],
+input[type="phone"],
+input[type="email"] {
   border-radius: 4px;
   height: 1.5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input:invalid {
-  border-color: red;
+input[type="text"]:required,
+input[type="password"]:required,
+input[type="phone"]:required,
+input[type="email"]:required {
+  border-color: #7676a7;
 }
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="phone"]:focus,
+input[type="email"]:focus {
+  border-width: 0.2rem;
+  border-color: blue;
+}
+
+input:invalid {
+  border-width: 0.2rem;
+  border-color: #ff3333;
+} 
 
 ul {
   list-style-type: none;
