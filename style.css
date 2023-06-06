@@ -14,6 +14,10 @@ body {
 
 }
 
+#main {
+  display: flex;
+}
+
 #left {
   background: url("https://images.unsplash.com/photo-1685115755336-c488e27084a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80");
   background-attachment: fixed;
@@ -65,6 +69,55 @@ body {
   text-align: center;
 }
 
-#main {
+#right {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 7.5rem;
+  margin-left: 2.5rem;
+  margin-right: 10rem;
+
+}
+
+.hero,
+.callToAction {
+  font-weight: bold;
+}
+
+.left-form,
+.right-form {
+  font-size: smaller;
+}
+
+.form-container {
   display: flex;
+  margin: 0;
+}
+
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 5rem;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+.button {
+  display: block;
+  background-color: rgb(182, 140, 207);
+  border: none;
+  border-radius: 12px;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  padding: 1rem;
+
 }
